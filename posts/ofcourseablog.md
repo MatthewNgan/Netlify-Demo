@@ -4,5 +4,5 @@ layout: layout.html
 tags: post
 ---
 
-# HIHIHIHIHIH
-test
+## Hi what's up
+I'm testing
