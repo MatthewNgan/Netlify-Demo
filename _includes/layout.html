@@ -9,11 +9,25 @@
       margin: auto;
       max-width: 700px;
       padding: 1em;
-      background-color: black;
-      color: white;
+      background-color: white;
+      color: black;
     }
     .siteheader {
       font-size: 3em;
+    }
+    a,a:visited {
+      color: black;
+    }
+    
+    @media {prefers-color-scheme: dark) {
+      body {
+        background-color: #333;
+        color: white;
+      }
+      a,a:visited {
+        color: lemonchiffon;
+      }
+    }
   </style>
 </head>
 <body>
