@@ -1,6 +1,6 @@
 ---
 title: just a random blog
-layout: layout.html
+layout: post.html
 tags: post
 ---
 
