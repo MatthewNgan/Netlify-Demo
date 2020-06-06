@@ -6,8 +6,7 @@ module.exports = function(eleventyConfig) {
     // If we use Netlify and has the _redirects file.
     eleventyConfig.addPassthroughCopy("_redirects");
     
-    eleventyConfig.addFilter("toISOString", fucntion(date) {
+    eleventyConfig.addFilter("toISOString", function(date) {
         return date.toISOString().split('T')[0];
     });
-    
 }
