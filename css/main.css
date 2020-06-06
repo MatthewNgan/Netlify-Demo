@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: auto;
+  max-width: 700px;
+  padding: 1em;
+  background-color: #F8F8F8;
+  color: #222;
+}
+.siteheader {
+  font-size: 1.5em;
+}
+a,a:visited {
+  color: #555;
+}
+a:hover {
+  text-decoration: underline gold;
+  background-color: gold;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181818;
+    color: #efefef;
+  }
+  a,a:visited {
+    color: #bbb;
+  }
+  a:hover {
+    text-decoration: underline gold;
+    background-color: gold;
+  }
+}
