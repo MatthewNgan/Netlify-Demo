@@ -10,10 +10,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("toISOString", function(date) {
         return date.toISOString().split('T')[0];
     });
-    module.exports = function(eleventyConfig) {
-
     eleventyConfig.addCollection("lastThreePosts", function(collection) {
         return collection.getFilteredByTag('post').slice(-3).reverse()
     });
-};
 }
