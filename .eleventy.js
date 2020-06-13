@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
     module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection("lastThreePosts", function(collection) {
-        return collection.getFilteredByTag('task').slice(-3).reverse()
+        return collection.getFilteredByTag('post').slice(-3).reverse()
     });
 };
 }
