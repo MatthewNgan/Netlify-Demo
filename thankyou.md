@@ -3,4 +3,5 @@ layout: layout.html
 ---
 
 # Thank You!
-I have recieved your form! I'll contact you later.
+
+I’ve recieved your submittion. I’ll contact you as soon as possible.
