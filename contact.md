@@ -2,11 +2,11 @@
 layout: layout.html
 ---
 
-# Contacts
+# Contact Me
 
 Fill out this form to contact with me!
 
-<form method="POST" data-netlify="true">
+<form method="POST" netlify action="/thankyou/">
     <p>
         <label>
             Name:
