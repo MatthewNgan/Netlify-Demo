@@ -12,8 +12,8 @@ module.exports = function(eleventyConfig) {
     });
     module.exports = function(eleventyConfig) {
 
-    eleventyConfig.addCollection("lastThreeTasks", function(collection) {
-        return collection.getFilteredByTag('task').slice().reverse().slice(0, 3)
+    eleventyConfig.addCollection("lastThreePosts", function(collection) {
+        return collection.getFilteredByTag('task').slice(-3).reverse()
     });
 };
 }
