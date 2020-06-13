@@ -6,7 +6,9 @@ layout: layout.html
 
 Fill out this form to contact with me!
 
-<form method="POST" netlify action="/thankyou/">
+<form method="POST" action="https://formsubmit.co/matthewngan3@gmail.com">
+    <input type="hidden" name="_subject" value="New contact submission from the Blog!">
+    <input type="hidden" name="_next" value="https://justablog.netlify.app/thankyou/"
     <p>
         <label>
             Name:
